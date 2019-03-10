@@ -3,6 +3,7 @@
 ## Boilerplate content
 - my folder structure to keep project source code maintanable
 - basics settings of Sequelize ORM
+- MySQL driver as a dependency
 - setupdb npm command for re-generate the database with the migrations and seeders
 - NodeJS Express REST API with:
   - CORS settings
@@ -12,6 +13,10 @@
 ## Setup
 
 - git clone https://github.com/davidcsejtei/express-sql-boilerplate.git
+- rename the express-sql-boilerplate folder to your project name
+- remove existing git remote from the repository with git remote remove origin
+- add your empty GitHub project as a new origin with git remote add origin [your GitHub project URL]
+- push the boilerplate to the master branch: git push -u origin master
 - npm i
 - modify config/config.json
 - .\node_modules\.bin\sequelize db:create
