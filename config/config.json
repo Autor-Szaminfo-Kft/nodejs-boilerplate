@@ -1,0 +1,50 @@
+{
+  "development": {
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false,
+    "define": {
+      "underscored": true,
+      "freezeTableName": true,
+      "timestamps": false
+    },
+    "dialectOptions": {
+      "charset": "utf8mb4"
+    }
+  },
+  "test": {
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false,
+    "define": {
+      "underscored": true,
+      "freezeTableName": true,
+      "timestamps": false
+    },
+    "dialectOptions": {
+      "charset": "utf8mb4"
+    }
+  },
+  "production": {
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false,
+    "define": {
+      "underscored": true,
+      "freezeTableName": true,
+      "timestamps": false
+    },
+    "dialectOptions": {
+      "charset": "utf8mb4"
+    }
+  }
+}
