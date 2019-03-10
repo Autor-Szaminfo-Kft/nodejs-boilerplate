@@ -3,6 +3,7 @@
 ## Boilerplate content
 - my folder structure to keep project source code maintanable
 - basics settings of Sequelize ORM
+- MySQL driver as a dependency
 - setupdb npm command for re-generate the database with the migrations and seeders
 - NodeJS Express REST API with:
   - CORS settings
