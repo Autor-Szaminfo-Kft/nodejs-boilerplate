@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const models = require('../models/index');
+const models = require('../models');
 
 async function getAllUsers() {
     return models.user.findAll({
@@ -11,4 +11,4 @@ async function getAllUsers() {
 
 module.exports = {
     getAllUsers
-}
+};
